@@ -10,6 +10,6 @@
 
 </head>
 <body>
-Le nom est: <?php echo $nom;?>
+Le nom est: <?php echo $nom;?> (toto).
 </body>
 </html>

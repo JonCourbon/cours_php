@@ -16,7 +16,7 @@ $tableau = array (
 	"legumes"  => array ("chou", "carotte","brocolis")
 );
 
-echo "Le premier fruit est ". $tableau["fruits"];
+echo "Le premier fruit de la liste est ". $tableau["fruits"]." (l'orange)";
  ?>
 
 </body>

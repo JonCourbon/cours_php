@@ -13,6 +13,6 @@ $titre="Le titre de cette super page"
 
 </head>
 <body>
-
+Le titre de la page (balise title) est: <?php echo titre;>
 </body>
 </html>

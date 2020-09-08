@@ -10,14 +10,17 @@
 
 </head>
 <body>
+	La célèbre phrase de James Bond est:
+	<quote>
 <?php
 $tableau=array(
 	"nom"=>"Bond",
 	"prenom"=> "James"
 );
 
-echo "Mon nom est ".$tableau[0].", ".$tableau[1]." ".$tableau[0];
+echo "Mon nom est ".$tableau[0].", ".$tableau[1]." ".$tableau[0].".";
  ?>
+</quote>
 
 </body>
 </html>

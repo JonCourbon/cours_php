@@ -10,6 +10,6 @@
 
 </head>
 <body>
-	Vous vous appelez: <?php echo $_GET["prenom"]." ".$_GET["nom"];?> (nom en gras)
+	Vous vous appelez: <?php echo $_GET["prenom"]." ".$_GET["nom"];?> (le nom de famille est en gras)
 </body>
 </html>

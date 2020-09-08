@@ -10,6 +10,6 @@
 
 </head>
 <body>
-Vous vous appelez: <?php echo $_GET["nom"];?>
+Vous vous appelez: <?php echo $_GET["nom"];?>.
 </body>
 </html>
