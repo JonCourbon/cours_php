@@ -11,7 +11,7 @@
 </head>
 <body>
 Formulaire de contact
-<form action="q22suiteformulaire.php" method="GET">
+<form action="q23suiteformulaire.php" method="GET">
 <label for="nom">Nom:</label>
 <input type="text" name="nom"><br><br>
 <input type="submit" value="Suivant">
