@@ -19,6 +19,7 @@ if($email!="jp@gmail.com"){
 else{
   $_SESSION['autentifie']=false;
   $_SESSION['erreur']='utilisateur';
+  $_SESSION['donneessaisies']=$_POST;
   header('Location: inscription.php');
   exit;
 }
