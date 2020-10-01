@@ -117,6 +117,52 @@ $tableau2D=array(
 );
 echo $tableau2D["nom"][1];
  ?><br/>
- (qui, cependant, est beaucoup moins logique ici)<br/><br/>
+ (qui, cependant, est beaucoup moins logique ici)<br/>
 
- 
+ <br/><br/>
+ *****************************************<br/>
+ EXERCICES À FAIRE<br/>
+ *****************************************<br/>
+ <br/><br/>
+
+ Enoncé<br/>
+ Créer un tableau avec 5 valeurs. Afficher chacune des valeurs, séparées par un tiret -.
+ <br/>Code PHP ?<br/>
+ <?php
+  ?>
+  <br/><br/>
+
+  Enoncé<br/>
+  Créer un tableau avec 5 valeurs. Afficher la somme de ces valeurs (on pourra partir de somme <-0 puis ajouter successivement la valeur de chaque case).
+  <br/>Code PHP ?<br/>
+  <?php
+   ?>
+   <br/><br/>
+
+   Enoncé<br/>
+   Créer une fonction qui prend comme argument un tableau et retourne le valeur la plus grande dans ce tableau.<br/>
+ Algorithme en pseudo-code<br/>
+ <pre>
+    Entier plusGrandeValeur(Entier[] tableau)
+        Entier maxi=0;
+        Entier compteur;Entier tailleTableau;
+        tailleTableau <- taille(tableau);
+        Pour(compteur de 0 à tailleTableau non compris pas de 1)
+           Si(tableau[compteur]>maxi)
+            maxi <- tableau[compteur];
+           Fin Si
+        Fin Pour
+        Retourner maxi;
+
+    Entier[] tableau;
+    tableau[0]<-10;
+    tableau[1]<-5;
+    tableau[2]<-14;
+    tableau[3]<-20;
+    Entier plusgrand=plusGrandeValeur(tableau);
+    Afficher(plusgrand);
+ </pre>
+ <br/>Code PHP ?<br/>
+ <?php
+  ?>
+  <br/><br/>
