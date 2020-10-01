@@ -21,7 +21,7 @@ session_start();
     if($_SESSION['erreur']=='utilisateur'):?>
        Un utilisateur avec l'adresse mail <?php echo $_SESSION['donneessaisies']['email'];?> existe déjà:
        <ul>
-           <li>Si c'est vous, essayez de vous connecter avec votre compte <a href="connection.php"><button>Se connecter</button></a></li>
+           <li>Si c'est vous, essayez de vous connecter avec votre compte <a href="connexion.php"><button>Se connecter</button></a></li>
            <li>Si c'est une erreur d'adresse mail, corrigez l'adresse !</li>
        </ul>
   <?php endif;
@@ -38,7 +38,7 @@ session_start();
       <input type="submit" value="Envoyer"/>
     </fieldset>
   </form>
-
+	
   <?php
   if(isset($_SESSION['erreur']) && !empty($_SESSION['erreur'])){
     $_SESSION['erreur']=''; // on efface pour la prochaine fois

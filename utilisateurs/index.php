@@ -24,7 +24,7 @@ session_start();
   <div>
     <?php if(!isset($_SESSION['autentifie']) || $_SESSION['autentifie']!=true): ?>
       <a href="inscription.php"><button>S'inscrire</button></a><br/>
-      <a href="connection.php"><button>Se connecter avec son compte</button></a><br/>
+      <a href="connexion.php"><button>Se connecter avec son compte</button></a><br/>
     <?php else: ?>
       <a href="deconnecter.php"><button>Me déconnecter</button></a><br/>
       <a href="changermdp.php"><button>Changer mon mot de passe</button></a><br/>
