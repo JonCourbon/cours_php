@@ -87,7 +87,7 @@ EXERCICES À FAIRE<br/>
 <br/><br/>
 Enoncé<br/>
 Stocker la valeur de 3 nombres entiers (A, B, C). Calculer puis afficher la somme. Calculer puis afficher la moyenne.<br/>
-Pseudo -code<br/>
+Algorithme en pseudo-code<br/>
 <pre>
 Entier A, B, C;
 ...
@@ -99,7 +99,7 @@ Entier A, B, C;
  <br/><br/>
  Enoncé<br/>
  Stocker le nom et le prénom de la personne dans 2 variables. Afficher le nom. Afficher le prénom concaténé avec le nom (Jonathan COURBON)<br/>
- Pseudo -code<br/>
+ Algorithme en pseudo-code<br/>
  <pre>
  Chaine nom, prenom;
  ...
@@ -111,7 +111,7 @@ Entier A, B, C;
   <br/><br/>
   Enoncé<br/>
   Stocker la valeur de 2 nombres entiers (A, B). Afficher la valeur de chaque variable. Inverser les valeurs et afficher.<br/>
-  Pseudo -code<br/>
+  Algorithme en pseudo-code<br/>
   <pre>
   Entier A, B;
   A<-10;

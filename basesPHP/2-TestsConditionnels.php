@@ -7,7 +7,7 @@ Exemple: On stocke l'âge de la personne et on affiche 'Vous êtes majeur' ... s
    ## SI ## <br/>
 Enoncé<br/>
 On stocke l'âge de la personne et on affiche 'Vous êtes majeur' ... si c'est le cas !<br/>
-Pseudo -code<br/>
+Algorithme en pseudo-code<br/>
 <pre>
 Entier age;
 age <-12;
@@ -27,7 +27,7 @@ if($age >= 18){
     ## SI .. SINON ## <br/>
  Enoncé<br/>
  On stocke l'âge de la personne et on affiche 'Vous êtes majeur' ou 'Vous êtes mineur'<br/>
- Pseudo -code<br/>
+ Algorithme en pseudo-code<br/>
  <pre>
  Entier age;
  age <-12;
@@ -53,7 +53,7 @@ if($age >= 18){
      ## SI .. SINON SI .. ## <br/>
   Enoncé<br/>
   On stocke la moyenne au bac et on affiche la mention<br/>
-  Pseudo -code<br/>
+  Algorithme en pseudo-code<br/>
   <pre>
   Nombre moyennebac;
   moyennebac <-12;
@@ -95,7 +95,7 @@ if($age >= 18){
 ## SI avec conditions multiples ## <br/>
    Enoncé<br/>
    On stocke la taille et le sexe de la personne et on affiche 'Vous êtes grand garçon' pour les garçons de plus de 2m !<br/>
-   Pseudo -code<br/>
+   Algorithme en pseudo-code<br/>
    <pre>
    Entier taillecm;
    Chaine sexe;
@@ -117,7 +117,7 @@ if($age >= 18){
     <br/><br/>
     Enoncé<br/>
     On stocke le nom du département et on affiche 'Vous êtes ligériens/alti-ligériens' si c'est le cas<br/>
-    Pseudo -code<br/>
+    Algorithme en pseudo-code<br/>
     <pre>
     Chaine nomdep;
     nomdep <-'Haute-Loire';
@@ -142,7 +142,7 @@ if($age >= 18){
  <br/><br/>
  Enoncé<br/>
  Stocker la valeur d'une temperature. Afficher '** ATTENTION VERGLAS POSSIBLE**' si cette température est infèrieure ou égale à 4 degrés<br/>
- Pseudo -code<br/>
+ Algorithme en pseudo-code<br/>
  <pre>
  Entier temperature;
  temperature <- 0;
@@ -158,7 +158,7 @@ if($age >= 18){
   <br/><br/>
   Enoncé<br/>
   Stocker la valeur d'une temperature (pour la température de son corps). Afficher "tout est normal" ou "vous avez de la fièvre"<br/>
-  Pseudo -code ?<br/>
+  Algorithme en pseudo-code ?<br/>
   <pre>
   Entier temperature;
   </pre>

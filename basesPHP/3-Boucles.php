@@ -9,7 +9,7 @@ Lorsque l'on NE sait PAS combien de fois cela se répète => BOUCLES TANT QUE (i
 ## BOUCLE POUR ## <br/>
 Enoncé<br/>
 Afficher 10 étoiles successivement<br/>
-Pseudo -code<br/>
+Algorithme en pseudo-code<br/>
 <pre>
 Entier compteur;
 Pour(compteur de 0 à 10 non compris pas de 1) // compteur commencera à 0 puis s'incrémentera: 1, 2, .... et s'arretera à 9 compris (0 à 9 => 10 itérations)
@@ -27,7 +27,7 @@ for($compteur=0;$compteur<10;$compteur++){
 ## BOUCLE TANT QUE ## <br/>
 Enoncé<br/>
 Afficher des étoiles. On s'arretera quand un nombre aléatoire (entre 0 et 20) sera plus petit que 10.<br/>
-Pseudo -code<br/>
+Algorithme en pseudo-code<br/>
 <pre>
 Entier nombreAleatoire;
 nombreAleatoire <- 20 // il faut donner une valeur à ce qui va être dans le TANT QUE pour pouvoir rentrer dans la boucle
@@ -54,7 +54,7 @@ EXERCICES À FAIRE<br/>
 Enoncé<br/>
 Stocker la valeur correspondant au nombre d'étoiles que l'on veut dans une variable. Afficher ces étoiles successivement<br/>
 <br/>
-Pseudo -code<br/>
+Algorithme en pseudo-code<br/>
 <pre>
   Entier compteur, nombreEtoiles;
   nombreEtoiles<- 20;
@@ -67,14 +67,10 @@ Pseudo -code<br/>
  ?>
 
  <br/><br/>
- *****************************************<br/>
- EXERCICES À FAIRE<br/>
- *****************************************<br/>
- <br/><br/>
  Enoncé<br/>
  Afficher 20 étoiles successives<br/>
  <br/>
- Pseudo -code<br/>
+ Algorithme en pseudo-code<br/>
  <pre>
    Entier compteur;
    Pour(compteur de 0 à 10 non compris pas de 1) // compteur commencera à 0 puis s'incrémentera: 1, 2, .... et s'arretera à 9 compris (0 à 9 => 10 itérations)
@@ -89,7 +85,7 @@ Pseudo -code<br/>
   Enoncé<br/>
   Afficher 20 étoiles successives, sur 4 lignes successives<br/>
   <br/>
-  Pseudo -code<br/>
+  Algorithme en pseudo-code<br/>
   <pre>
     // point de départ: une ligne = on répète de faire des étoiles, plusieurs lignes = on repère de faire une ligne
     Entier ligne,compteur;
@@ -116,7 +112,7 @@ Pseudo -code<br/>
      ****
    </pre>
    <br/>
-   Pseudo -code ??<br/>
+   Algorithme en pseudo-code ??<br/>
    <pre>
    </pre>
    <br/>Code PHP ?<br/>
@@ -134,7 +130,7 @@ Pseudo -code<br/>
       ****
     </pre>
     Indice: des fois on affiche * et des fois un espace (=> SI)<br/>
-    Pseudo -code ??<br/>
+    Algorithme en pseudo-code ??<br/>
     <pre>
     </pre>
     <br/>Code PHP ?<br/>
@@ -152,7 +148,7 @@ Pseudo -code<br/>
        ****
      </pre>
      Indice: sur la premiere ligne, on affiche 1 étoile, sur la 2ème : 2, sur la Neme, N<br/>
-     Pseudo -code ??<br/>
+     Algorithme en pseudo-code ??<br/>
      <pre>
      </pre>
      <br/>Code PHP ?<br/>
