@@ -47,5 +47,19 @@
       <input type="submit" value="Afficher les moyennes">
     </fieldset>
   </form>
+
+  <h2>Formulaire 4</h2>
+  <form action="action4.php" method="GET">
+    <fieldset>
+      <label for="vehicules">Marques de vos véhicules:</label><br/>
+      <select name="vehicules" multiple="multiple">
+        <option value="renault">RENAULT</option>
+        <option value="peugeot">PEUGEOT</option>
+        <option value="toyota">TOYOTA</option>
+        <option value="seat">SEAT</option>
+      </select><br/>
+      <input type="submit" value="Afficher les marques">
+    </fieldset>
+  </form>
 </body>
 </html>
